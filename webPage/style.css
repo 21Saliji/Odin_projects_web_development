@@ -1,0 +1,103 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.link {
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container i {
+    margin: 10px;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
+h1{
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+.hero button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+/* Second content section styles */
+.second-content {
+    background-color: white;
+    padding: 20px;
+    color: #1f2937;
+}
+.second-content h2{
+    text-align: center;
+}
+
+/* Quote section styles */
+.qoute-section {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+}
+
+.qoute-section p {
+    margin-bottom: 10px;
+}
+
+
+/* Last content section styles */
+.last-content-wrapper {
+    background-color: #3882f6;
+    padding: 20px;
+    color: white;
+}
+
+.last-content-wrapper button.white-border-button {
+    border: 2px solid white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Footer styles */
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+    
